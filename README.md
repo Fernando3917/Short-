@@ -4,7 +4,7 @@
 
 
 
-<a href="https://fernando3917.github.io/Short-/login/">Tela de login</a>
-<a href="https://fernando3917.github.io/Short-/cards/">Cards</a>
-<a href="https://fernando3917.github.io/Short-/cacto/">Cacto</a>
-<a href="https://fernando3917.github.io/Short-/gradiente/">Gradiente</a>
+<a href="https://fernando3917.github.io/Short-/login/">Tela de login</a> <br> <br>
+<a href="https://fernando3917.github.io/Short-/cards/">Cards</a> <br>
+<a href="https://fernando3917.github.io/Short-/cacto/">Cacto</a> <br>
+<a href="https://fernando3917.github.io/Short-/gradiente/">Gradiente</a> <br>
