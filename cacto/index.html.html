@@ -1,0 +1,65 @@
+<div class="cacto">
+    <div class="plant"></div>
+    <div class="plant-mid"></div>
+    <div class="edge"></div>
+    <div class="pot"></div>
+</div>
+
+
+
+<style>
+    .cacto{
+        width: 100px;
+        height: 140px;
+        border: 0px solid yellow;
+        position:relative;
+    }
+    .cacto > div{
+        position: absolute;
+    }
+    .cacto .pot{
+        width: 60px;
+        height: 40px;
+        background-color:#ff6600;
+        clip-path: polygon(
+            00,
+            16px 64px, 44px 64px 0);
+        box-shadow:
+                inset 0 6px 6px rgba(0,0,0,0.3);
+        left: calc(50% - 30px);
+        bottom:0;
+    }
+    .cacto .edge{
+        width: 68px;
+        height: 16px;
+        background-color:#ff6600;
+        left: calc(50% - 34px);
+        bottom:38px;
+        z-index:4;
+        border-radius:2px;
+    }
+    .cacto.plant,
+    .cacto .plant-mid{
+        width:80px;
+        height: 80px;
+        left:calc(50% - 40px);
+        bottom:54px;
+        clip-path:ellipse(40% 50% at 50% 60%);
+        background:#009900;
+        box-shadow: inset 0 0 20px 8px #006600;
+    }
+    .cacto .plant,
+    .cacto .plant-mid{
+        width:80px;
+        height:80px;
+        left:calc(50% - 40px);
+        bottom:54px;
+        clip-path: ellipse(40% 50% at 50% 60%);
+        background: #009900;
+        box-shadow: inset 0 0 20px 8px #006600;
+    }
+    .cacto .plant-mid{
+        background:#00da00;
+        clip-path: ellipse(20% 50% at 50% 60%);
+    }
+</style>
