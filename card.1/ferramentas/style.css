@@ -1,0 +1,36 @@
+body{
+    margin:0;
+    padding:0;
+    min-height: 100vh;
+    background-color: #333;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: Consolas;
+}
+
+.container{
+    width: 1000px;
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+}
+
+.container .card{
+    position:relative;
+}
+
+.conteiner .card .face{
+    width: 300px; 
+    height: 200px;
+    transition:0.5s;
+}
+
+.conteiner .card .face.face1{
+    position:relative;
+    background: #333;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: 1;
+}
